@@ -1,0 +1,45 @@
+/* smalltouch_landscape one_col_stack */
+@media only screen and (min-width:321px) and (max-width:480px) {
+#page-wrapper {width:100%}
+#sidebar-first,#sidebar-second {float:none;clear:both;display:block;width:100%;margin-left:0;margin-right:0}
+#top-columns .column-block-wrapper {width: 100% !important; margin-top: 1em;}
+#top-columns .column-block-wrapper .column-block {height: auto ; margin: 0 !important;}
+#bottom-columns .column-block-wrapper {width: 100% !important; margin-top: 1em;}
+#bottom-columns .column-block-wrapper .column-block {height: auto ; margin: 0 !important;}
+#footer-columns .column-block-wrapper {width: 100% !important; margin-top: 1em;}
+#footer-columns .column-block-wrapper .column-block {height: auto ; margin: 0 !important;}
+}
+/* tablet_portrait one_col_stack */
+@media only screen and (min-width:481px) and (max-width:768px) {
+#page-wrapper {width:90%}
+#sidebar-first,#sidebar-second {float:none;clear:both;display:block;width:100%;margin-left:0;margin-right:0}
+#top-columns .column-block-wrapper {width: 100% !important; margin-top: 1em;}
+#top-columns .column-block-wrapper .column-block {height: auto ; margin: 0 !important;}
+#bottom-columns .column-block-wrapper {width: 100% !important; margin-top: 1em;}
+#bottom-columns .column-block-wrapper .column-block {height: auto ; margin: 0 !important;}
+#footer-columns .column-block-wrapper {width: 100% !important; margin-top: 1em;}
+#footer-columns .column-block-wrapper .column-block {height: auto ; margin: 0 !important;}
+}
+/* tablet_landscape three_col_grail */
+@media only screen and (min-width:769px) and (max-width:1024px) {
+#page-wrapper {width:90%}
+.two-sidebars #content .section {margin-left: 20%; margin-right: 20%}
+.one-sidebar #content .section {margin-left: 20%;}
+.sidebar-second #content .section {margin-left: 0; margin-right: 20%;}
+#sidebar-first .section {margin-left: 0; margin-right: 10px;}
+#sidebar-second .section {margin-right: 0; margin-left: 10px;}
+#sidebar-first {width: 20%; margin-left: -100%}
+#sidebar-second {width: 20%; margin-left: -20%}
+}
+/* bigscreen two_sidebars_right */
+@media only screen and (min-width:1025px) {
+#page-wrapper {width:100%}
+#double-right,#content-column,.content-column,div.sidebar {float: left; clear: none}
+.two-sidebars #content .section {margin-right: 50%; margin-left: 0}
+.one-sidebar #content .section {margin-right: 25%; margin-left: 0}
+#sidebar-first .section {margin-right: 0; margin-left: 10px;}
+#sidebar-second .section {margin-right: 0; margin-left: 10px;}
+#sidebar-first {width: 25%; margin-left: -50%}
+.one-sidebar #sidebar-first {width: 25%; margin-left: -25%}
+#sidebar-second {width: 25%; margin-left: -25%}
+}
